@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>Wallpapper Space</title>
+  </head>
+  <body>
+
+    <header>
+        <div class="pos-f-t">
+          <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+              <label>Wallpapper Space</label>
+            </button>
+            
+          </nav>
+
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="../html/index.html">Home</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="../html/registro.html">Register</a>
+                      </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </form>
+                  </div>
+                </nav>  
+              </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="jumbotron">
+        <h1 class="display-4">Bem-vindo ao Space Wallpapper</h1>
+        <p class="lead">O maior site de papeis de parede do espaço!</p>
+        <hr class="my-4">
+        <p>Preencha os dados abaixo para que possamos ter continuidade.</p>
+    </div>
+    
+    <form id="login">
+
+        <br>
+        <div class="form-row">
+          
+        </div>
+
+        <div class="form-row">
+            <div class="col">
+                <label for="inputName4">Nome</label>
+                <input type="text" class="form-control" placeholder="Nome">
+            </div>
+            <div class="col">
+                <label for="inputSurname4">Sobrenome</label>
+                <input type="text" class="form-control" placeholder="Sobrenome">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Senha</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPasswordC4">Confirmar Senha</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Confirmar Senha">
+              </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Endereço</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Endereço 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">Cidade</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputEstado">Estado</label>
+              <select id="inputEstado" class="form-control">
+                <option selected>Escolher...</option>
+                <option>AC</option>
+                <option>AL</option>
+                <option>AP</option>
+                <option>AM</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MT</option>
+                <option>MS</option>
+                <option>MG</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>PR</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>RS</option>
+                <option>SC</option>
+                <option>SE</option>
+                <option>SP</option>
+                <option>TO</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputCEP">CEP</label>
+              <input type="text" class="form-control" id="inputCEP" maxlength="9" onkeypress="formatar('#####-###', this)" >
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" required>
+              <label class="form-check-label" for="gridCheck">
+                Eu concordo com os <a href="https://enap.gov.br/pt/termo-de-uso-e-politica-de-privacidade"> termos de uso e politicas de privacidade.</a>
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Registrar</button>
+          <br><br>
+      </form>
+
+      
+       
+  </body>
+
+  <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
